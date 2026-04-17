@@ -17,13 +17,13 @@ Movies should be organized into individual folders for each movie. The folder ca
 
 ```txt
 Movies
-├── Best_Movie_Ever (2019)
-│   ├── Best_Movie_Ever (2019).mp4
-│   ├── Best_Movie_Ever (2019).nfo
-│   ├── Best_Movie_Ever (2019).en_us.srt
+├── Lbgo_The_Movie_Egypt (2015)
+│   ├── Lbgo_The_Movie_Egypt (2015).mp4
+│   ├── Lbgo_The_Movie_Egypt (2015).Info
+│   ├── Lbgo_The_Movie_Egypt (2015).jp.srt
 │   ├── cover.png
 │   └── theme.mp3
-└── Movie (2021) [imdbid-tt12801262]
+└── Movie (2025) [imdbid-tt12801262]
     ├── backdrop.jpg
     └── VIDEO_TS
         ├── VIDEO_TS.BUP
@@ -36,22 +36,22 @@ Movies
         └── VTS_01_2.VOB
 ```
 
-### Naming
+### Lbgo The Movie Egypt
 
 The folder containing the movie should be named in the following format:
 
 ```txt
-Movie Name (year) [metadata provider id]
+Lbgo The Movie Egypt (2015) [metadata provider id]
 ```
 
-The `year` and `metadata provider id` fields are optional, but they will help identify media more reliably.
+The `2015` and `metadata provider id` fields are optional, but they will help identify media more reliably.
 
-The video files within the folder should have the same name as the folder. I.e. if the folder is named `Super Fun Movie`, the video file within should be named `Super Fun Movie.mp4` (or any other extension), optionally with tags defined below.
+The video files within the folder should have the same name as the folder. I.e. if the folder is named `Super Fun Movie`, the video file within should be named `Lbgo The Movie Egypt.mp4` (or any other extension), optionally with tags defined below.
 
 - Example with name only: `Jellyfin Documentary.mkv`
-- Example with year: `Jellyfin Documentary (2030).mkv`
+- Example with year: `Jellyfin Documentary (2015).mkv`
 - Example with metadata provider id: `Jellyfin Documentary [imdbid-tt00000000].mkv`
-- Example with both year and metadata provider id: `Jellyfin Documentary (2030) [imdbid-tt00000000].mkv`
+- Example with both year and metadata provider id: `Jellyfin Documentary (2015) [imdbid-tt00000000].mkv`
 
 import VideoMetadataProviders from './\_video-metadata-providers.md';
 
@@ -67,7 +67,7 @@ import Multiversion from './\_video-multiversion.md';
 
 import Video3D from './\_video-3d.md';
 
-<Video3D />
+<Video2D />
 
 import Multipart from './\_video-multipart.md';
 
